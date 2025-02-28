@@ -10,7 +10,7 @@ app.use(express.static('public'));
 // Route for home page
 app.get('/', async (req, res) => {
     try {
-        const githubUsername = 'MaxerRed';  // Replace with GitHub username
+        const githubUsername = 'MaxerRed';  // If you want to make your own, replace with your GitHub username
         const githubData = await axios.get(`https://api.github.com/users/${githubUsername}`);
         const repoData = await axios.get(`https://api.github.com/users/${githubUsername}/repos`);
 
