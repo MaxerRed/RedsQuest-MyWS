@@ -34,8 +34,8 @@ Run the server:
 npm start
 Open your browser and go to http://localhost:3000 to view the site.
 
-Contributions
+Contributions:
 I welcome contributions to make Reds.Quest better. If you have ideas, bug fixes, or enhancements, feel free to open an issue or create a pull request. Let’s make this website awesome together!
 
-License
+License:
 This project is open-source and available under the MIT License.
