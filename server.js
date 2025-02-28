@@ -63,8 +63,3 @@ app.get('/', async (req, res) => {
         res.send('Error fetching GitHub data.');
     }
 });
-
-// Start server
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
