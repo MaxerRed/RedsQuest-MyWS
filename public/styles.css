@@ -1,0 +1,72 @@
+/* styles.css */
+body {
+    background-image: url('https://gist.githubusercontent.com/brettlangdon/85942af486eb79118467/raw/1804270.jpg');  /* Background image URL */
+    background-size: cover;  /* Ensures the image covers the entire screen */
+    background-position: center;  /* Centers the image */
+    background-attachment: fixed;  /* Keeps the background fixed while scrolling */
+    height: 100vh;  /* Full height of the viewport */
+    margin: 0;  /* Removes default body margin */
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+p {
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h3 {
+    margin-top: 30px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid transparent;
+    background-image: linear-gradient(45deg, red, black, gray, red);
+    background-size: 400%;
+    animation: borderAnimation 30s ease infinite;
+}
+
+@keyframes borderAnimation {
+    0% {
+        background-position: 0 0;
+    }
+    50% {
+        background-position: 400% 0;
+    }
+    100% {
+        background-position: 0 0;
+    }
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.list-group-item {
+    font-size: 1.1rem;
+}
+
+/* Optional: Customize carousel control buttons (arrows) */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff; /* Change to any color you like */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Adjust the button width if needed */
+}
+
+.carousel-item {
+    padding: 20px;
+}
