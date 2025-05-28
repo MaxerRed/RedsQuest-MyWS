@@ -1,12 +1,7 @@
-# Welcome to Reds.Quest
-
-Reds.Quest is a personal website built to showcase my unique developer skills and serve as my personal online developer portfolio.
-
-## About Me
 
 I'm MaxerRed, a freelance developer with a passion especially for software and game development 
 
-## Features of Reds.Quest
+## Features
 
 - **Showcase of Projects**: Check out the projects I’ve been working on and contributing to.
 - **Tech Blog**: A space for me to share insights, tips, and tutorials on web development, programming, and other tech topics.
